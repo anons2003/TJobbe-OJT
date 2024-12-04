@@ -77,6 +77,7 @@ com/SWP/WebServer/entity/JobType.class
 com/SWP/WebServer/dto/BlogDTO.class
 com/SWP/WebServer/service/HistoryPaymentService.class
 com/SWP/WebServer/entity/Education.class
+com/SWP/WebServer/dto/MonthlyJobPostDTO.class
 com/SWP/WebServer/controller/ResumeController.class
 com/SWP/WebServer/service/JobTypeService.class
 com/SWP/WebServer/repository/PackageServiceRepository.class

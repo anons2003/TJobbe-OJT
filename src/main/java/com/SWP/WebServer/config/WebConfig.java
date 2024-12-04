@@ -27,6 +27,8 @@ public class WebConfig implements WebMvcConfigurer {
             }
         };
 //        https://tjob-rho.vercel.app
+        //topjob.id.vn
+        //http://localhost:3000
     }
 }
 
