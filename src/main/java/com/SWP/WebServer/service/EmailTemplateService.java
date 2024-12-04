@@ -219,7 +219,7 @@ public class EmailTemplateService {
                 "                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n" + //
                 "                      <tr>\n" + //
                 "                        <td align=\"center\" bgcolor=\"#1a82e2\" style=\"border-radius: 6px;\">\n" + //
-                "                          <a href=" + "http://localhost:3000/change-password?token=" + token
+                "                          <a href=" + "https://topjob.id.vn/change-password?token=" + token
                 + "  target=\"_blank\" style=\"display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px;\">"
                 + buttonTitle + "</a>\n" + //
                 "                        </td>\n" + //
@@ -502,7 +502,7 @@ public class EmailTemplateService {
                 "                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n" + //
                 "                      <tr>\n" + //
                 "                        <td align=\"center\" bgcolor=\"#1a82e2\" style=\"border-radius: 6px;\">\n" + //
-                "                          <a href=" + " http://localhost:8080/verify?token=" + token
+                "                          <a href=" + "https://topjob-ojt-790cf940c139.herokuapp.com/verify?token=" + token
                 + "  target=\"_blank\" style=\"display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px;\">"
                 + buttonTitle + "</a>\n" + //
                 "                        </td>\n" + //

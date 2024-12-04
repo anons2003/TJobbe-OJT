@@ -19,7 +19,7 @@ public class WebConfig implements WebMvcConfigurer {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000")
+                        .allowedOrigins("https://topjob.id.vn")
                         .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
@@ -27,7 +27,7 @@ public class WebConfig implements WebMvcConfigurer {
             }
         };
 //        https://tjob-rho.vercel.app
-        //topjob.id.vn
+        //https://topjob.id.vn
         //http://localhost:3000
     }
 }

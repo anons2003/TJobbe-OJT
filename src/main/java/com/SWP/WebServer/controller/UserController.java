@@ -67,7 +67,8 @@ public class UserController {
             HttpServletResponse response) {
         userService.updateVerifyEmail(query);
         try {
-            response.sendRedirect("http://localhost:3000/login");
+            response.sendRedirect("https://topjob.id.vn/login");
+            //https://topjob.id.vn
         } catch (Exception e) {
             throw new ApiRequestException("Internal error", HttpStatus.INTERNAL_SERVER_ERROR);
         }
